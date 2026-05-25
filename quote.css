@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3591bc;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sli {
+  width: 800px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 80px rgba(23, 34, 187, 0.1);
+}
+
+.quo {
+  font-size: 24px;
+  color: #040404;
+  
+}
+
+.auth {
+  text-align: end;
+  font-size: 19px;
+  color: gray;
+  
+}
+
+button {
+  padding: 9px 10px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: none;
+  background: #161717;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.prev{
+    text-align: start;
+}
+.nex{
+    text-align: end;
+}
